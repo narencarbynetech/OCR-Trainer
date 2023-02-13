@@ -10,9 +10,9 @@ import torch.nn.functional as F
 import numpy as np
 from nltk.metrics.distance import edit_distance
 
-from EasyOCR.trainer.utils import CTCLabelConverter, AttnLabelConverter, Averager
-from EasyOCR.trainer.dataset import hierarchical_dataset, AlignCollate
-from EasyOCR.trainer.model import Model
+from utils import CTCLabelConverter, AttnLabelConverter, Averager
+from dataset import hierarchical_dataset, AlignCollate
+from model import Model
 
 def validation(model, criterion, evaluation_loader, converter, opt, device):
     """ validation or evaluation """

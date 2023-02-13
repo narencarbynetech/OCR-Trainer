@@ -2,8 +2,8 @@ number: '0123456789'
 symbol: "!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~ €"
 lang_char: 'None'
 experiment_name: 'en_filtered'
-train_data: 'EasyOCR/trainer/all_data'
-valid_data: 'EasyOCR/trainer/all_data/valid'
+train_data: 'data'
+valid_data: 'data/valid'
 manualSeed: 1111
 workers: 6
 batch_size: 32 #32
